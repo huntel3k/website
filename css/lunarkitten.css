@@ -1,0 +1,76 @@
+.main-content h1 {
+    font-family: "Iosevka Web Bold", monospace;
+    font-size: 2.3rem;
+    color: rgb(128, 21, 211);
+    text-align: center;
+}
+
+.main-content p {
+    font-family: "Iosevka Web", monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-family: "Iosevka Web", monospace;
+    font-size: 2rem;
+    color: rgb(128, 21, 211);
+    text-align: center;
+}
+
+.main-content h3 {
+    font-family: "Iosevka Web", monospace;
+    font-size: 0.9rem;
+    color: white;
+    text-align: center;
+}
+
+.githublink {
+    height: auto;
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: 0.2rem underline mediumpurple;
+}
+
+.collapsible-content {
+    display: none;
+    margin-left: 20px;
+}
+.collapsible-header {
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.collapsible-content li {
+    font-family: "Iosevka Web", monospace;
+    text-decoration: rebeccapurple;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-bottom: 10vh;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .collapsible-header {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    .collapsible-content li {
+        font-size: 1rem;
+    }
+
+
+}
