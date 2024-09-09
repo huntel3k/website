@@ -29,7 +29,7 @@
     height: auto;
     font-size: 1.3rem;
     color: white;
-    text-decoration: 0.2rem underline mediumpurple;
+    text-decoration: 1px underline mediumpurple;
 }
 
 .collapsible-content {
@@ -44,7 +44,9 @@
 
 .collapsible-content li {
     font-family: "Iosevka Web", monospace;
-    text-decoration: rebeccapurple;
+    text-align: center;
+    list-style-type: none;
+    margin: 10px 0;
 }
 
 @media (max-width: 768px) {
@@ -59,7 +61,7 @@
         font-size: 1.5rem;
     }
 
-    p {
+    .main-content p {
         font-size: 1.2rem;
     }
 

@@ -29,7 +29,8 @@
     <h2>Commands:</h2>
     <h3><span style="color: darkred">&lt;argument&gt;</span> is
         <span style="color: darkred">required</span></h3>
-    <h3><span style="color: gray">[argument]</span> is optional</h3>
+    <h3><span style="color: gray">[argument]</span> is
+        <span style="color: gray">optional</span></h3>
     <h3>(click on them to reveal subcommands)</h3>
     <div class="commands">
         <p class="collapsible-header" onclick="toggleVisibility('about-commands')">/about</p>
@@ -55,6 +56,8 @@
         <p class="collapsible-header" onclick="toggleVisibility('moderation-commands')">/moderation</p>
         <div id="moderation-commands" class="collapsible-content">
             <ul>
+                <li><strong>/moderation list</strong>:
+                    <span style="color: dodgerblue;">Shows list of banned users!</span></li>
                 <li><strong>/moderation ban
                     <span style="color: darkred">&lt;user&gt;</span>
                     <span style="color: gray">[reason]</span></strong>:
@@ -66,8 +69,6 @@
                     <span style="color: darkred">&lt;user&gt;</span>
                     <span style="color: gray">[reason]</span></strong>:
                     <span style="color: dodgerblue;">Kicks a user from the server!</span></li>
-                <li><strong>/moderation list</strong>:
-                    <span style="color: dodgerblue;">List of banned users!</span></li>
                 <li><strong>/moderation mute
                     <span style="color: darkred">&lt;user&gt;</span>
                     <span style="color: gray">&lt;time&gt;</span></strong>:
