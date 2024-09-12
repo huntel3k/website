@@ -5,8 +5,12 @@
     background: rgb(49, 51, 56);
     width: 90%;
     border-radius: 15px;
-    border: solid rgb(128, 21, 211);;
+    border: solid rgb(128, 21, 211);
     margin: 0 auto;
+}
+
+.aboutme:hover {
+    border: solid rgb(96, 47, 134);
 }
 
 h1 {

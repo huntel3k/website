@@ -38,7 +38,7 @@ body {
     transition: opacity 0.2s;
 }
 .navbar img:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .navbar a {
@@ -62,7 +62,7 @@ body {
     background: rgb(131, 15, 222);
     transform: scaleX(0); /* Start with zero width */
     transform-origin: bottom right; /* Expand from right to left */
-    transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+    transition: transform 0.3s ease-out, opacity 0.5s ease-in-out;
 }
 
 .navbar a:hover::after {

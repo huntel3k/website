@@ -26,6 +26,10 @@ h1 {
     border: 2px rgb(128, 21, 211) solid;
 }
 
+.intro p:hover {
+    border: 2px rgb(88, 43, 124) solid;
+}
+
 .intro h3 {
     text-align: center;
     font-family: 'Iosevka Web', monospace;
@@ -67,6 +71,10 @@ h1 {
 
 .contact-content p {
     margin: 0;
+}
+
+.contact-content p:hover {
+    color: rgb(80, 92, 230);
 }
 
 

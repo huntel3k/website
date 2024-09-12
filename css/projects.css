@@ -26,6 +26,10 @@ h1 {
     padding: 10px;
 }
 
+.project:hover {
+    border: rgb(96, 47, 134) solid;
+}
+
 .project-header {
     display: flex; /* Create a horizontal row for the image and h2 */
     align-items: center; /* Center image and h2 vertically */
@@ -55,10 +59,12 @@ h1 {
 }
 
 .project a {
-    background: linear-gradient(to bottom, aliceblue 30%, rgb(160, 100, 255) 20%, rgb(128, 21, 211) 70%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent; /* This makes the text itself transparent, showing the gradient */
+    color: rgb(128, 21, 211);
+    text-decoration: none;
+}
+
+.project a:hover {
+    color: rgb(96, 47, 134);
     text-decoration: none;
 }
 
