@@ -13,25 +13,6 @@
     border: solid rgb(96, 47, 134);
 }
 
-h1 {
-    font-family: 'Iosevka Web', monospace;
-    text-align: center;
-    color: rgb(128, 21, 211);
-    font-size: 2.5rem;
-}
-
-.aboutme p {
-    font-family: 'Iosevka Web', monospace;
-    font-size: 1.4rem;
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.aboutme a {
-    text-decoration: none;
-    color: rgb(128, 21, 211);
-}
-
 @media (max-width: 768px) {
     .aboutme {
         margin: 0 auto;

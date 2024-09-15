@@ -31,31 +31,16 @@ h1 {
 }
 
 .project-header {
-    display: flex; /* Create a horizontal row for the image and h2 */
-    align-items: center; /* Center image and h2 vertically */
-    width: 100%; /* Take full width of container */
-    justify-content: flex-start; /* Align image and h2 to the left */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
 }
 
 .project img {
     border-radius: 20%;
     width: 64px;
     height: 64px;
-}
-
-.project h2 {
-    font-family: 'Iosevka Web', monospace;
-    font-size: 1.6rem;
-    margin-left: 20px;
-    color: rgb(128, 21, 211);
-}
-
-.project p {
-    font-family: 'Iosevka Web', monospace;
-    font-size: 1.2rem;
-    justify-items: center;
-    text-align: center;
-    width: 100%;
 }
 
 .project a {
@@ -76,33 +61,24 @@ h1 {
 
 @media (max-width: 768px) {
     .project-container {
-        flex-direction: column; /* Stack the projects vertically on small screens */
-        align-items: center; /* Centers the stacked items */
+        flex-direction: column;
+        align-items: center;
     }
 
     .project {
-        width: 90%; /* Make it wider on mobile */
-        height: auto; /* Allow height to adapt */
+        width: 90%;
+        height: auto;
     }
 
     .project-header {
         display: flex;
-        align-items: center; /* Center both image and heading */
-        justify-content: center; /* Center the content */
+        align-items: center;
+        justify-content: center;
         width: 100%;
     }
 
     .project img {
-        width: 48px; /* Smaller image on mobile */
+        width: 48px;
         height: 48px;
-    }
-
-    .project h2 {
-        font-size: 1.4rem; /* Slightly smaller font for mobile */
-        margin-left: 10px; /* Reduce left margin */
-    }
-
-    .project p {
-        font-size: 1rem; /* Slightly smaller font for mobile */
     }
 }
