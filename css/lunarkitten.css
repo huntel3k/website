@@ -32,21 +32,10 @@
     text-decoration: 1px underline mediumpurple;
 }
 
-.collapsible-content {
-    display: none;
-    margin-left: 20px;
-}
-.collapsible-header {
-    cursor: pointer;
-    font-weight: bold;
-    color: white;
-}
-
-.collapsible-content li {
-    font-family: "Iosevka Web", monospace;
-    text-align: center;
-    list-style-type: none;
-    margin: 10px 0;
+.main-content img {
+    display: block;
+    border-radius: 10%;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
