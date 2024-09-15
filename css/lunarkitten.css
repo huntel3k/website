@@ -1,35 +1,21 @@
-.main-content h1 {
-    font-family: "Iosevka Web Bold", monospace;
-    font-size: 2.3rem;
-    color: rgb(128, 21, 211);
-    text-align: center;
-}
-
-.main-content p {
-    font-family: "Iosevka Web", monospace;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-.main-content h2 {
-    font-family: "Iosevka Web", monospace;
-    font-size: 2rem;
-    color: rgb(128, 21, 211);
-    text-align: center;
-}
-
-.main-content h3 {
-    font-family: "Iosevka Web", monospace;
-    font-size: 1rem;
-    color: white;
-    text-align: center;
-}
-
 .githublink {
+    display: block;
+    text-align: center;
+    width: 10%;
+    margin: 0 auto;
+}
+
+.githublink p {
+    text-align: center;
+    background: linear-gradient(180deg, rgba(9,20,121,1) 12%, rgba(150,2,243,1) 66%, rgba(165,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     height: auto;
-    font-size: 1.3rem;
-    color: white;
-    text-decoration: 1px underline mediumpurple;
+    padding: 5px;
+    border: 1px solid rgba(150,2,243,1);
+    border-radius: 5vh;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .main-content img {
@@ -42,26 +28,4 @@
     .main-content {
         margin-bottom: 10vh;
     }
-    h1 {
-        font-size: 1.7rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    .main-content p {
-        font-size: 1.2rem;
-    }
-
-    .collapsible-header {
-        padding: 10px;
-        font-size: 1.2rem;
-    }
-
-    .collapsible-content li {
-        font-size: 1rem;
-    }
-
-
 }
