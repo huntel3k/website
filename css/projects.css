@@ -1,0 +1,84 @@
+
+h1 {
+    font-family: 'Iosevka Web', monospace;
+    text-align: center;
+    color: rgb(128, 21, 211);
+}
+
+.project-container {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    gap: 2rem; /* Adds space between the project boxes */
+    flex-wrap: wrap; /* Allows wrapping if there’s not enough space */
+    padding: 2rem; /* Adds padding around the container */
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(49, 51, 56);
+    width: 18%;
+    border-radius: 17px;
+    border: rgb(128, 21, 211) solid;
+    height: 15rem;
+    padding: 10px;
+}
+
+.project:hover {
+    border: rgb(96, 47, 134) solid;
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.project img {
+    border-radius: 20%;
+    width: 64px;
+    height: 64px;
+}
+
+.project a {
+    color: rgb(128, 21, 211);
+    text-decoration: none;
+}
+
+.project a:hover {
+    color: rgb(96, 47, 134);
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .project {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 90%;
+        height: auto;
+    }
+
+    .project-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .project img {
+        width: 48px;
+        height: 48px;
+    }
+}

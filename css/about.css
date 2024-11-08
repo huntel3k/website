@@ -1,0 +1,22 @@
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(49, 51, 56);
+    width: 90%;
+    border-radius: 15px;
+    border: solid rgb(128, 21, 211);
+    margin: 0 auto;
+}
+
+.aboutme:hover {
+    border: solid rgb(96, 47, 134);
+}
+
+@media (max-width: 768px) {
+    .aboutme {
+        margin: 0 auto;
+        height: auto;
+        padding: 3%;
+    }
+}

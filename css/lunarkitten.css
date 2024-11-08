@@ -1,0 +1,38 @@
+h1 {
+    background: linear-gradient(180deg, rgba(9,20,121,1) 12%, rgba(150,2,243,1) 66%, rgba(165,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-content img {
+    display: block;
+    border-radius: 10%;
+    margin: 0 auto;
+}
+
+.bot {
+    display: block;
+    text-align: center;
+    width: 15%;
+    margin: 3rem auto;
+}
+
+.bot summary {
+    display: block;
+    text-align: center;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-bottom: 10vh;
+    }
+
+    .githublink {
+        width: 35%;
+    }
+
+    .bot {
+        width: 35%;
+    }
+}

@@ -1,0 +1,28 @@
+.contact {
+    font-family: 'Iosevka Web', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30vh;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(128, 21, 211);
+    padding: 10px;
+    background: rgba(49, 51, 56);
+    border-radius: 16px;
+    border: 2px rgb(128, 21, 211) solid;
+}
+
+.contact-content img {
+    border-radius: 20%;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+

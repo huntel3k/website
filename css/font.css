@@ -1,0 +1,101 @@
+.main-content {
+
+    h1 {
+        font-family: 'Iosevka Web', monospace;
+        text-align: center;
+        color: rgb(128, 21, 211);
+        position: relative;
+        font-size: 2.3rem;
+    }
+
+    .intro p {
+        text-align: center;
+        font-family: 'Iosevka Web', monospace;
+        color: rgb(131, 15, 222);
+        background: rgba(49, 51, 56);
+        width: fit-content;
+        padding: 10px;
+        margin: 5px auto;
+        border-radius: 10px;
+        border: 2px rgb(128, 21, 211) solid;
+    }
+
+    .intro p:hover {
+        border: 2px rgb(88, 43, 124) solid;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: 'Iosevka Web', monospace;
+        color: rgb(128, 21, 211);
+        font-size: 1.8rem;
+        margin-top: 3%
+    }
+
+    h3 {
+        text-align: center;
+        font-family: 'Iosevka Web', monospace;
+        color: rgb(128, 21, 211);
+        font-size: 1.45rem;
+    }
+
+    .contact h2 {
+        margin-bottom: 15px;
+    }
+
+    .contact-content p {
+        margin: 0;
+    }
+
+    .contact-content p:hover {
+        color: rgb(80, 92, 230);
+    }
+
+    p {
+        font-family: 'Iosevka Web', monospace;
+        font-size: 1.1rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(128, 21, 211);
+    }
+
+    .project h2 {
+        font-family: 'Iosevka Web', monospace;
+        font-size: 1.6rem;
+        margin-left: 20px;
+        color: rgb(128, 21, 211);
+        margin-top: 20px;
+    }
+
+    .project p {
+        font-family: 'Iosevka Web', monospace;
+        font-size: 1.2rem;
+        justify-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 1.6rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            margin-top: 5vh;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+
+        .project p {
+            font-size: 1rem;
+        }
+    }
+}
