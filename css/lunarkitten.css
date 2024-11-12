@@ -21,6 +21,11 @@ h1 {
     display: block;
     text-align: center;
     height: auto;
+    list-style: none;
+}
+
+.bot summary::-webkit-details-marker {
+    display: none;
 }
 
 @media (max-width: 768px) {
