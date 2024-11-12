@@ -28,11 +28,10 @@ h1 {
         margin-bottom: 10vh;
     }
 
-    .githublink {
-        width: 35%;
-    }
-
     .bot {
-        width: 35%;
+        width: 90%;
+        padding: 20px;
+        margin: 0 auto;
+        box-sizing: border-box;
     }
 }
